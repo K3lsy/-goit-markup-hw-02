@@ -1,21 +1,19 @@
 :root {
   --primary-tekst-color: #757575;
   --title-tekst-color: #212121;
-  --accent-color: #2196F3;
-
+  --accent-color: #2196f3;
 }
-
 
 body {
   font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  background-color: #FFFFFF;
-  color: var(--primary-tekst-color)
+  background-color: #ffffff;
+  color: var(--primary-tekst-color);
 }
 
 h3 {
-  color: var(--title-tekst-color)
+  color: var(--title-tekst-color);
 }
 
 .link {
@@ -28,15 +26,15 @@ h3 {
 
 /* logo */
 
-.logo {  
+.logo {
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
   letter-spacing: 0.03em;
-  color: #000000
+  color: #000000;
 }
 .accent {
-  color: var(--accent-color)
+  color: var(--accent-color);
 }
 
 /* site-nav */
@@ -50,7 +48,7 @@ h3 {
 
 .site-nav a:hover,
 .site-nav a:focus {
-  color: #2196F3;
+  color: #2196f3;
 }
 
 .site-nav .link .current {
@@ -67,14 +65,14 @@ h3 {
 
 .cont-nav a:hover,
 .cont-nav a:focus {
-  color: #2196F3;
+  color: #2196f3;
 }
 
 /* hero */
 
 .hero {
-  background-color: #2F303A;
-  color: #FFFFFF;
+  background-color: #2f303a;
+  color: #ffffff;
 }
 
 .hero-title {
@@ -88,13 +86,13 @@ h3 {
 
 .portfolio-nav a:hover,
 .portfolio-nav a:focus {
-  color: #2196F3;
+  color: #2196f3;
 }
 
 .button {
   font-family: inherit;
   color: var(--title-tekst-color);
-  background-color: #F5F4FA;
+  background-color: #f5f4fa;
 }
 
 .button.primary {
@@ -106,7 +104,7 @@ h3 {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color:#FFFFFF;
+  color: #ffffff;
   background-color: var(--accent-color);
 }
 
@@ -118,9 +116,8 @@ h3 {
   line-height: calc(14 / 16);
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--title-tekst-color)
+  color: var(--title-tekst-color);
 }
-
 
 /* adress */
 
@@ -129,7 +126,5 @@ h3 {
   font-size: 14px;
   line-height: calc(14 / 24);
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: #ffffff;
 }
-
-
