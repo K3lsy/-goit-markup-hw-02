@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolioo</title>
+    <title>Portfolio</title>
 
     <!-- font family  -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -38,13 +38,13 @@
     <main>
     <!-- section portfolio -->
       <section>
-        <h2>projects</h2>
+        <h2 class="visually-hidden">projects</h2>
         <ul class="portfolio-nav list">
-          <li><button type="button" class="button">Усі</button></li>
-          <li><button type="button" class="button">Веб-сайти</button></li>
-          <li><button type="button" class="button">Додатки</button></li>
-          <li><button type="button" class="button">Дизайн</button></li>
-          <li><button type="button" class="button">Маркетинг</button></li>
+          <li><button class="btn" type="button">Усі</button></li>
+          <li><button class="btn" type="button">Веб-сайти</button></li>
+          <li><button class="btn" type="button">Додатки</button></li>
+          <li><button class="btn" type="button">Дизайн</button></li>
+          <li><button class="btn" type="button">Маркетинг</button></li>
         </ul>
         <ul class="portfolio list">
           <li class="portfolio-item">
@@ -92,20 +92,19 @@
       </section>
     </main>
     <!-- footer -->
-    <footer>
-      <a class="logo link" href="./index.html"> <span class="accent">Web</span>Studio</a>
-      <address>
-        <ul class="adress list">
+    <footer class="footer">
+      <a class="footer-logo link" href="./index.html"> <span class="accent">Web</span>Studio</a>
+      <address class="footer-address">
+        <ul class="footer-address-list list">
           <li>
-            <a class="address-item link"
+            <a class="link street"
               href="https://goo.gl/maps/Re9TB4cgeU6oJgfr6"
               target="_blank"
               rel="noopener noreferrer"
-              >м. Київ, пр-т Лесі Українки, 26</a
-            >
+              >м. Київ, пр-т Лесі Українки, 26</a>
           </li>
-          <li><a class="address-item link href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a class="address-item link href="tel:+38 096 111 11 11">+38 096 111 11 11</a></li>
+          <li><a class="link footer-email href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a class="link footer-tel href="tel:+38 096 111 11 11">+38 096 111 11 11</a></li>
         </ul>
       </address>
     </footer>

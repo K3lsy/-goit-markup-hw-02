@@ -1,15 +1,19 @@
 :root {
+  --main-color-white: #ffffff;
   --primary-tekst-color: #757575;
   --title-tekst-color: #212121;
   --accent-color: #2196f3;
+  --accent-active: #188ce8;
+  --background-color: #f5f4fa;
+  --backgroung-color-accent: #2f303a;
 }
 
 body {
   font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  background-color: #ffffff;
   color: var(--primary-tekst-color);
+  background-color: var(--main-color-white);
 }
 
 h3 {
@@ -43,12 +47,12 @@ h3 {
   font-weight: 500;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--title-tekst-color);
 }
 
 .site-nav a:hover,
 .site-nav a:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .site-nav .link .current {
@@ -71,8 +75,8 @@ h3 {
 /* hero */
 
 .hero {
-  background-color: #2f303a;
-  color: #ffffff;
+  background-color: var(--backgroung-color-accent);
+  color: var(--main-color-white);
 }
 
 .hero-title {
@@ -84,18 +88,27 @@ h3 {
   text-transform: uppercase;
 }
 
-.portfolio-nav a:hover,
-.portfolio-nav a:focus {
-  color: #2196f3;
+.btn a:active {
+  color: var(--accent-active);
 }
 
-.button {
+.btn {
   font-family: inherit;
   color: var(--title-tekst-color);
   background-color: #f5f4fa;
+  cursor: pointer;
 }
 
-.button.primary {
+.section-team {
+  background-color: var(--background-color);
+}
+
+.portfolio-nav a:hover,
+.portfolio-nav a:focus {
+  color: var(--accent-color);
+}
+
+.btn-hero {
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -104,8 +117,9 @@ h3 {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--main-color-white);
   background-color: var(--accent-color);
+  cursor: pointer;
 }
 
 /* section1 */
@@ -121,10 +135,41 @@ h3 {
 
 /* adress */
 
-.adress-list {
+.footer {
+  background-color: var(--backgroung-color-accent);
+}
+
+.footer-logo {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: var(--main-color-white);
+}
+
+.foofooter-address-list {
+  font-family: 'Roboto';
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: calc(14 / 24);
   letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.street {
+  font-family: 'Roboto';
+  font-style: normal;
   color: #ffffff;
+}
+
+.footer-email {
+  font-family: 'Roboto';
+  font-style: normal;
+}
+
+.footer-tel {
+  font-family: 'Roboto';
+  font-style: normal;
 }
